@@ -1,0 +1,25 @@
+﻿<html>
+  <head>   
+             <title>Count--->Characters,Words,Lines
+  </title>
+  <script>
+   function count()
+   {
+      var d=document.getElementById('data').value;
+      var lines,words,characters;   acv
+      characters=d.length;
+      words=d.split(^b\s+b/g).length-1;
+      lines=d.split(^n/g).length-1;
+      alert("no.of characters:"+characters+","+"no.of words:"+words+","+"no.of lines"+lines);
+  }
+</script>
+</head>
+<body/>
+<H1 align="center">
+<font color="blue">Counting program</font></h1>
+<center>     <form onSubmit="return count();">
+<table align="center">   <tr>
+<td><textarea id="data"rows="5"cols="20"></textarea></td>
+</tr>  <tr>  <td>
+<input type="submit" value="count">  </td>  </tr>
+</table>   </form>   </center>   </body>   </html>
